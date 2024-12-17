@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Friends </title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/x-icon" href="image/favicon.ico">
+<link href="https://dencar-icons.gitlab.io/i/icons.css" rel="stylesheet" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Georgia">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Verdana">
+
+<style>
+.slide {
+    margin: 0;
+    padding: 0;
+    align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 800px;
+    height: 550px;
+    overflow-x: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.slide1 {
+    background-image: url(
+"image/fwends1.jpg");
+}
+
+.slide2 {
+    background-image: url(
+"image/fwends2.jpg");
+}
+
+.slide3 {
+    background-image: url(
+"image/fwends3.jpg");
+}
+
+.slide4 {
+    background-image: url(
+"image/fwends4.jpg");
+}
+
+
+.slide5 {
+    background-image: url(
+"image/fwends5.jpg");
+}
+
+.slide6 {
+    background-image: url(
+"image/fwends6.jpg");
+}
+
+.slide7 {
+    background-image: url(
+"image/frends1.jpg");
+}
+
+.slide8 {
+    background-image: url(
+"image/frends2.jpg");
+}
+
+.slide9 {
+    background-image: url(
+"image/frends3.jpg");
+}
+
+.slide10 {
+    background-image: url(
+"image/frends4.jpg");
+}
+
+.slide11 {
+    background-image: url(
+"image/frends5.jpg");
+}
+
+.slide12 {
+    background-image: url(
+"image/frends6.jpg");
+}
+
+
+
+
+.arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: 500px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+#arrow-left {
+    border-width: 20px 30px 20px 0;
+    border-color: transparent #fff transparent transparent;
+      left: 0;
+      margin-left: 20px;
+}
+
+#arrow-right {
+     border-width: 20px 0 20px 30px;
+      border-color: transparent transparent transparent #fff;
+      right: 0;
+      margin-right: 20px;
+}
+      
+.card-container {
+  perspective: 500px;
+}
+.card-container:hover .card {
+  transform: rotateY(180deg);
+}
+.card-container, .front, .back {
+  width: 300px;
+  height: 300px;
+}
+.front, .back {
+  background: #c8ada3;
+
+}
+.card {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+.front, .back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.front {
+  z-index: 2;
+  transform: rotateY(0deg);
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+
+</style>
+</head>
+<body>
+
+<nav>
+<a href="index.html"><img src="image/0.png"></a>
+<a href="me.html"><img src="image/about.png"></a>
+<a href="family.html"><img src="image/family.png"></a>
+<a href="education.html"><img src="image/education.png"></a>
+<a href="friends.html"><img src="image/friends.png"></a>
+<a href="hobby.html"><img src="image/hobby.png"></a>
+<a href="jp.html"><img src="image/jp.png"></a>
+</nav>
+
+<header class="banner">
+<center><h1 class="header">Friends</h1></center>
+</header>
+
+
+<div>
+<table style="border-radius: 30px;" cellpadding="50" cellspacing="20" width="100%" height="100px">
+<tr>
+<td colspan="2" bgcolor="#EED3BF" align="center">
+<h2 class="body">Friendships ⋆.˚.𖥔˚</h2><br>
+<p>“The language of friendship is not words but meanings.” – Henry David Thoreau</p>
+</td>
+
+<td bgcolor="#b08a7b" align="center" style="padding-top: 30px; padding-bottom: 30px;">
+<h3>Jump to:</h3><br>
+<a href="#hs">HighSchool Friends</a><br>
+<a href="#dp">Diploma Friends</a>
+</td>
+</tr>
+
+<tr>
+<td align="center" colspan="3" bgcolor="#b08a7b" style="padding-top: 30px; padding-bottom: 30px;">
+<h1 class="body">⋆˙⟡ Gallery ⋆˙⟡</h1>
+</td>
+</tr>
+
+
+<tr>
+<td colspan="3" align="center">
+<div id="arrow-left" class="arrow"></div>
+<div class="slide slide1"></div>
+<div class="slide slide2"></div>
+<div class="slide slide3"></div>
+<div class="slide slide4"></div>
+<div class="slide slide5"></div>
+<div class="slide slide6"></div>
+<div class="slide slide7"></div>
+<div class="slide slide8"></div>
+<div class="slide slide9"></div>
+<div class="slide slide10"></div>
+<div class="slide slide11"></div>
+<div class="slide slide12"></div>
+<div id="arrow-right" class="arrow"></div>
+</td>
+</tr>
+
+
+
+
+<tr>
+<td align="center" colspan="3" bgcolor="#b08a7b" style="padding-top: 30px; padding-bottom: 30px;">
+<h1 id="hs" class="body">✧₊⁺ High School Friends ✧₊⁺</h1>
+</td>
+</tr>
+
+<tr>
+<td align="center" colspan="3">
+<h1 class="body">Profiles</h1>
+<p>(hover to see biodata!)</p>
+</td>
+</tr>
+
+<tr align="center">
+<td>
+<div class="card-container">
+<div class="card">
+<div class="front">
+<img src="image/fwlayiz.png">
+</div>
+<div class="back">
+<font style="text-align: left;">
+<h3>Layizz</h3><br>
+<p><b>Name:</b>Alya Izzati<br>
+<b>DOB:</b>19 February 2003<br>
+<b>Hometown:</b>Klang, Selangor<br>
+<b>Major:</b>BSc in Microbiology and Molecular Genetics, Universiti Malaya<br>
+<b>Hobbies:</b>Sleeping<br>
+<b>Contact:</b>016-9551814<br></p></font>
+</div>
+</div>
+</div>
+</td>
+
+<td>
+<div class="card-container">
+<div class="card">
+<div class="front">
+<img src="image/fwaina.png">
+</div>
+<div class="back">
+<font style="text-align: left;">
+<h3>Nina</h3><br>
+<p><b>Name:</b>Nur'Aina Fazriena<br>
+<b>DOB:</b>15 May 2003<br>
+<b>Hometown:</b>Batang Kali, Selangor<br>
+<b>Major:</b>Biosystems and Biomedical Sciences, Korea University<br>
+<b>Hobbies:</b>Watching movies<br>
+<b>Contact:</b>013-6100579<br></p></font>
+</div>
+</div>
+</div>
+</td>
+
+<td><div class="card-container">
+<div class="card">
+<div class="front">
+   <img src="image/fwdini.png"></div>
+<div class="back">
+<font style="text-align: left;">
+<h3>Dini</h3><br>
+<p><b>Name:</b>Aidini Sofi<br>
+<b>DOB:</b>26 June 2003<br>
+<b>Hometown:</b>Puchong, Selangor<br>
+<b>Major:</b>BSc (Hons) Accounting and Finance, Sunway University<br>
+<b>Hobbies:</b>Playing guitar, drawing (or anything related to arts<br>
+<b>Contact:</b>aidinisofiamar@gmail.com<br></p></font>
+</div>
+</div>
+</div>
+</td>
+</tr>
+
+<tr align="center">
+<td>
+<div class="card-container">
+<div class="card">
+<div class="front">
+<img src="image/fwsyara.png">
+</div>
+<div class="back">
+<font style="text-align: left;">
+<h3>Syawo</h3><br>
+<p><b>Name:</b>Syara Hafilda<br>
+<b>DOB:</b>19 April 2003<br>
+<b>Hometown:</b>Puncak Alam, Selangor<br>
+<b>Major:</b>Degree in Quantity Surverying (Honours), Taylors University<br>
+<b>Hobbies:</b>Cats, Food, Music<br>
+<b>Contact:</b>syarahafilda@gmail.com<br></p></font>
+</div>
+</div>
+</div>
+</td>
+
+<td>
+<div class="card-container">
+<div class="card">
+<div class="front">
+<img src="image/fwnisa.png">
+</div>
+<div class="back">
+<font style="text-align: left;">
+<h3>Nisa</h3><br>
+<p><b>Name:</b>Nurnisa Humaira<br>
+<b>DOB:</b>24 November 2003<br>
+<b>Hometown:</b>Puncak Alam, Selangor<br>
+<b>Major:</b>Bachelor in Data Science , Hanyang University , Seoul, South Korea<br>
+<b>Hobbies:</b>Walking, Cycling, Photography<br>
+<b>Contact:</b>nurnisahumaira@gmail.com<br></p></font></div>
+</div>
+</div>
+</td>
+
+<td><div class="card-container">
+<div class="card">
+<div class="front">
+   <img src="image/fwhan.png"></div>
+<div class="back">
+<font style="text-align: left;">
+<h3>Han</h3><br>
+<p><b>Name:</b>Aisya Hanim<br>
+<b>DOB:</b>5 February 2003<br>
+<b>Hometown:</b>Shah Alam, Selangor<br>
+<b>Major:</b>Bachelor's Degree in Computer Science (Big Data), UiTM Jasin<br>
+<b>Hobbies:</b>Puzzles, Car Sptting, RPG Games<br>
+<b>Contact:</b>aisya.hanim03@gmail.com<br></p></font></div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+
+
+
+<tr>
+<td align="center" colspan="3" bgcolor="#b08a7b" style="padding-top: 30px; padding-bottom: 30px;">
+<h1 id="dp" class="body">✧₊⁺ Diploma Friends ✧₊⁺</h1>
+</td>
+</tr>
+
+<tr>
+<td align="center" colspan="3">
+<h1 class="body">Profiles</h1>
+<p>(hover to see biodata!)</p>
+</td>
+</tr>
+
+
+<tr align="center">
+<td>
+<div class="card-container">
+<div class="card">
+<div class="front">
+<img src="image/frshera.png">
+</div>
+<div class="back">
+<font style="text-align: left;">
+<h3>Shera</h3><br>
+<p><b>Name:</b>Nurshahirah Najwa<br>
+<b>DOB:</b>17 December 2004<br>
+<b>Hometown:</b>Slim River, Perak<br>
+<b>Major:</b>Diploma in Library Informatics, UiTM Merbok<br>
+<b>Hobbies:</b>Reading novels, music.<br>
+<b>Contact:</b>nrshahirah.najwa@gmail.com<br></p></font>
+</div>
+</div>
+</td>
+
+<td>
+<div class="card-container">
+<div class="card">
+<div class="front">
+<img src="image/framni.png">
+</div>
+<div class="back">
+<font style="text-align: left;">
+<h3>Amni</h3><br>
+<p><b>Name:</b>Amni Amylia Ratna<br>
+<b>DOB:</b>28 February 2004<br>
+<b>Hometown:</b>Shah Alam, Selangor<br>
+<b>Major:</b>Diploma in Library Informatics, UiTM Merbok<br>
+<b>Hobbies:</b>Drawing<br>
+<b>Contact:</b>019574999<br></p></font>
+</div>
+</div>
+</div>
+</td>
+
+<td><div class="card-container">
+<div class="card">
+<div class="front">
+   <img src="image/friqa.png"></div>
+<div class="back">
+<font style="text-align: left;">
+<h3>Iqa</h3><br>
+<p><b>Name:</b>Nur Syafiqa<br>
+<b>DOB:</b>26 December 2003<br>
+<b>Hometown:</b>Selangor<br>
+<b>Major:</b>Diploma in Library Informatics, UiTM Merbok<br>
+<b>Hobbies:</b>Sleeping, eating, pitam<br>
+<b>Contact:</b>0172501910<br></p></font>
+</div>
+</div>
+</div>
+</td>
+</tr>
+
+<tr align="center">
+<td>
+<div class="card-container">
+<div class="card">
+<div class="front">
+<img src="image/frlisha.png">
+</div>
+<div class="back">
+<font style="text-align: left;">
+<h3>Alisha</h3><br>
+<p><b>Name:</b>Alisha Zafeerah<br>
+<b>DOB:</b>20 May 2004<br>
+<b>Hometown:</b>Ampang, Selangor<br>
+<b>Major:</b>Diploma in Library Informatics, UiTM Merbok<br>
+<b>Hobbies:</b>Sleeping<br>
+<b>Contact:</b>01161900882<br></p></font>
+</div>
+</div>
+</div>
+</td>
+
+<td>
+<div class="card-container">
+<div class="card">
+<div class="front">
+<img src="image/frsha.png">
+</div>
+<div class="back">
+<font style="text-align: left;">
+<h3>Shasha</h3><br>
+<p><b>Name:</b>Nurul Natasha<br>
+<b>DOB:</b>28 June 2004<br>
+<b>Hometown:</b>Kuantan, Pahang<br>
+<b>Major:</b>Diploma in Library Informatics, UiTM Merbok<br>
+<b>Hobbies:</b>Sleeping<br>
+<b>Contact:</b>0179252109<br></p></font>
+</div>
+</div>
+</div>
+</td>
+
+<td><div class="card-container">
+<div class="card">
+<div class="front">
+   <img src="image/frtasya.png"></div>
+<div class="back">
+<font style="text-align: left;">
+<h3>Miranats</h3><br>
+<p><b>Name:</b>Nor Amira Natasya<br>
+<b>DOB:</b>12 March 2004<br>
+<b>Hometown:</b>Kuala Kubu Bharu, Selangor<br>
+<b>Major:</b>Diploma in Library Informatics, UiTM Merbok<br>
+<b>Hobbies:</b>Reading, spending time with family<br>
+<b>Contact:</b>0133745183<br></p></font>
+</div>
+</div>
+</td>
+</tr>
+
+<tr align="center">
+<td colspan="3"><div class="card-container">
+<div class="card">
+<div class="front">
+   <img src="image/frnurul.png"></div>
+<div class="back">
+<font style="text-align: left;">
+<h3>Nuyul</h3><br>
+<p><b>Name:</b>Nurul Najwa<br>
+<b>DOB:</b>17 May 2004<br>
+<b>Hometown:</b>Batu Berendam, Melaka<br>
+<b>Major:</b>Diploma in Library Informatics, UiTM Merbok<br>
+<b>Hobbies:</b>Reading novels<br>
+<b>Contact:</b>0103166163<br></p></font>
+</div>
+</div>
+</div>
+</td>
+
+</tr> 
+</table>
+</div>
+
+<a href="#" id="back-to-top" class="back-to-top">Back to Top</a>
+<script src="script.js"></script>
+</body>
+<br>
+<br>
+
+<footer>
+<table cellpadding="30" cellspacing="50">
+<tr>
+<td>Best viewed with chrome full screen.</td>
+<td>©Putri's Website. All rights reserved. Updated 17/12/2024</td>
+<td align="left">Contact Me:
+<a href="mailto:putrinurdalilah@gmail.com">putrinurdalilah@gmail.com</a>
+ / +6017-312 9680</td>
+</tr>
+</table>
+</footer>
+
+
+
+</html>
